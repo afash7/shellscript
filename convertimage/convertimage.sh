@@ -1,0 +1,1 @@
+for image in *.jpg ;  do convert -resize 728 -quality 300 "$image" "${image%.*}.png" ; done
